@@ -1,0 +1,14 @@
+[server]
+bind = "127.0.0.1:8787"
+
+[[providers]]
+name = "Antigravity (Google)"
+provider_type = "antigravity"
+accounts = []
+
+[[providers]]
+name = "OpenAI Codex"
+provider_type = "codex"
+accounts = []
+
+[models]

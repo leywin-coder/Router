@@ -1,0 +1,26 @@
+# Build artifacts
+/target/
+Cargo.lock
+
+# Environment & secrets
+.env
+*.env
+
+# Hermes local session data & plans
+.hermes/
+
+# Log files
+*.log
+llm-router.log
+
+# Temporary & local config/tokens
+latest-auth-url.txt
+*-accounts.json
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
